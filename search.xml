@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>vscode配置paste image</title>
+      <link href="/2022/03/21/vscode-paste-image/"/>
+      <url>/2022/03/21/vscode-paste-image/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近感觉用vscode编辑Markdown也是十分清爽的，而写笔记少不了图片，我就想如何实现方便快捷地管理图片</p><h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>个人是在用snipaste截图</p><p>想达到的效果为</p><ol><li>截图到剪贴板</li><li>直接在vscode中使用快捷键粘贴进来</li><li>可以自定义图片粘贴后保存的路径，方便管理</li><li>可以自定义图片的名称</li></ol><h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><p>经过搜集资料，发现vscode中的插件paste image，这个插件使用快捷键可以把剪贴板里的图片直接粘贴到md中并保存本地文件</p><pre><code>Type: “Paste Image” or you can use default keyboard binding: Ctrl+Alt+V (Cmd+Alt+V on Mac).默认快捷键：win：ctrl + alt + vmac：command + alt + v</code></pre><p>下面贴出一些我的基础配置</p><h1 id="自定义配置"><a href="#自定义配置" class="headerlink" title="自定义配置"></a>自定义配置</h1><p>可以在paste image的介绍页看到github的<a href="https://github.com/mushanshitiancai/vscode-paste-image">地址</a></p><p>readme文件中已经详细介绍了基础配置</p><p>在vscode设置中找到paste image配置</p><p>具体每项配置就不再赘述了，仅记录自己用的一些</p><p>修改图片默认名称</p><img src="/2022/03/21/vscode-paste-image/3958Mo23220339.png" class=""><p>修改文件保存路径，我没有修改这里的配置，使用了文件同名目录</p><img src="/2022/03/21/vscode-paste-image/3259Mo23220332.png" class=""><p><code>$&#123;currentFileNameWithoutExt&#125;-images</code></p><p>这里我把图片保存到md文件同级的一个同名文件夹后面加 - images的文件目录里</p><p>md文件插入图片的形式为：</p><p><code>[](图片地址)</code></p><p>使用快捷键粘贴图片后，插件其实是帮我们做了两件事</p><ol><li>把图片保存到我们配置的目录中，以我们配置的名字保存</li><li>在md文件中，插入上述的图片形式，图片地址部分为图片路径<ul><li>我们可以在插入的地址文本前加上 .&#x2F;  ，同样是配置，如果需要的话 <img src="/2022/03/21/vscode-paste-image/1307Tu00220313.png" class=""></li></ul></li></ol><p>这样就实现了使用paste image自定义图片保存路径和名称</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> vscode </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/03/21/hello-world/"/>
+      <url>/2022/03/21/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

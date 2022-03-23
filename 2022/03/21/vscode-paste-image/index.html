@@ -1,0 +1,59 @@
+<!DOCTYPE html><html class="appearance-auto" lang="en"><head><meta charset="UTF-8"><title>vscode配置paste image</title><meta name="description" content="As you wish"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- Google Analytics --><!-- End Google Analytics -->
+<!-- Baidu Analytics --><!-- End Baidu Analytics --><link rel="icon" href="/images/favicon.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="前言
+最近感觉用vscode编辑Markdown也是十分清爽的，而写笔记少不了图片，我就想如何实现方便快捷地管理图片
+需求个人是在用snipaste截图
+想达到的效果为
+
+截图到剪贴板
+直接在vscode中使用快捷键粘贴进来
+可以自定义图片粘贴后保存的路径，方便管理
+可以自定义图片的名称
+
+插件经过搜集资料，发现vscode中的插件paste image，这个插件使用快捷键可以把剪贴板里的图片直接粘贴到md中并保存本地文件
+Type: “Paste Image” or you can use default keyboard binding: Ctrl+Alt+V (Cmd+Alt+V on Mac).
+
+默认快捷键：
+win：ctrl + alt + v
+mac：command + alt + v
+
+下面.."><meta name="generator" content="Hexo 6.0.0"></head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Zhangyao's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">vscode配置paste image</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9C%80%E6%B1%82"><span class="toc-text">需求</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8F%92%E4%BB%B6"><span class="toc-text">插件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE"><span class="toc-text">自定义配置</span></a></li></ol></div><div class="column is-9"><header class="my-4"></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">vscode配置paste image</h1><time class="has-text-grey" datetime="2022-03-21T15:40:44.000Z">2022-03-21</time><article class="mt-2 post-content"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1>
+<p>最近感觉用vscode编辑Markdown也是十分清爽的，而写笔记少不了图片，我就想如何实现方便快捷地管理图片</p>
+<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>个人是在用snipaste截图</p>
+<p>想达到的效果为</p>
+<ol>
+<li>截图到剪贴板</li>
+<li>直接在vscode中使用快捷键粘贴进来</li>
+<li>可以自定义图片粘贴后保存的路径，方便管理</li>
+<li>可以自定义图片的名称</li>
+</ol>
+<h1 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h1><p>经过搜集资料，发现vscode中的插件paste image，这个插件使用快捷键可以把剪贴板里的图片直接粘贴到md中并保存本地文件</p>
+<pre><code>Type: “Paste Image” or you can use default keyboard binding: Ctrl+Alt+V (Cmd+Alt+V on Mac).
+
+默认快捷键：
+win：ctrl + alt + v
+mac：command + alt + v
+</code></pre>
+<p>下面贴出一些我的基础配置</p>
+<h1 id="自定义配置"><a href="#自定义配置" class="headerlink" title="自定义配置"></a>自定义配置</h1><p>可以在paste image的介绍页看到github的<a target="_blank" rel="noopener" href="https://github.com/mushanshitiancai/vscode-paste-image">地址</a></p>
+<p>readme文件中已经详细介绍了基础配置</p>
+<p>在vscode设置中找到paste image配置</p>
+<p>具体每项配置就不再赘述了，仅记录自己用的一些</p>
+<p>修改图片默认名称</p>
+<img src="/2022/03/21/vscode-paste-image/3958Mo23220339.png" class="">
+
+<p>修改文件保存路径，我没有修改这里的配置，使用了文件同名目录</p>
+<img src="/2022/03/21/vscode-paste-image/3259Mo23220332.png" class="">
+<p><code>$&#123;currentFileNameWithoutExt&#125;-images</code></p>
+<p>这里我把图片保存到md文件同级的一个同名文件夹后面加 - images的文件目录里</p>
+<p>md文件插入图片的形式为：</p>
+<p><code>[](图片地址)</code></p>
+<p>使用快捷键粘贴图片后，插件其实是帮我们做了两件事</p>
+<ol>
+<li>把图片保存到我们配置的目录中，以我们配置的名字保存</li>
+<li>在md文件中，插入上述的图片形式，图片地址部分为图片路径<ul>
+<li>我们可以在插入的地址文本前加上 .&#x2F;  ，同样是配置，如果需要的话 <img src="/2022/03/21/vscode-paste-image/1307Tu00220313.png" class=""></li>
+</ul>
+</li>
+</ol>
+<p>这样就实现了使用paste image自定义图片保存路径和名称</p>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><em></em><a class="button is-default" href="/2022/03/21/hello-world/" title="Hello World"><span class="has-text-weight-semibold">Next: Hello World</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><!-- Github--><!-- Ins--><a title="instagram" target="_blank" rel="noopener nofollow" href="//www.instagram.com//"><i class="iconfont icon-ins"></i></a><!-- RSS--><!-- 知乎--><!-- 领英--><!-- 脸书--></section><p><span>Copyright ©</span><span> Zhangyao 2022</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/post.js"></script></body></html>
