@@ -1,0 +1,24 @@
+{
+  "name": "zyBlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress-vite dev blog",
+    "docs:build": "vuepress-vite build blog",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:clean-dev": "vuepress-vite dev blog --clean-cache",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/theme-default": "2.0.0-rc.37",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-hope": "2.0.0-rc.50"
+  }
+}
