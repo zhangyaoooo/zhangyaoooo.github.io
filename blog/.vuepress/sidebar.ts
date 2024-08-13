@@ -4,6 +4,20 @@ export default sidebar({
   "/": [
     "",
     {
+      text: "前端",
+      icon: "image",
+      prefix: "frontEnd/",
+      link: "frontEnd/",
+      children: "structure",
+    },
+    {
+      text: "练习题",
+      icon: "file-pen",
+      prefix: "exercise/",
+      link: "exercise/",
+      children: "structure",
+    },
+    {
       text: "技术杂谈",
       icon: "laptop-code",
       prefix: "knowledge/",

@@ -1,7 +1,7 @@
 ---
 title: 技术杂谈   # 文章标题
 # cover: /assets/images/cover1.jpg    # 你可以自定义封面图片
-icon: pen-to-square  # 这是页面的图标
+icon: laptop-code  # 这是页面的图标
 # order: 3    # 这是侧边栏的顺序
 author: 张耀   # 设置作者
 date: 1970-01-01    # 设置写作时间
