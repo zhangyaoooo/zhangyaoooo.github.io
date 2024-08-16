@@ -14,3 +14,25 @@ category:
 
 <!-- more -->
 demo1
+::: normal-demo 代码演示
+
+```html
+<!-- html code -->
+<h1 class='h1'>code</h1>
+```
+
+```js
+// js code
+
+```
+
+```css
+/* css code */
+.h1 {
+color: red;
+}
+```
+
+:::
+![alt text](assets/demo1/image.png)
+![alt text](assets/demo1/image-1.png)
