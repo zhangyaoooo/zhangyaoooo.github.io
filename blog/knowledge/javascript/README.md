@@ -1,13 +1,13 @@
 ---
+title: JavaScript
 icon: pen-to-square
+author: 张耀
 date: 1970-01-01
 category:
-  - 技术杂谈
+  - 前端
 # tag:
 #  - 页面配置
+article : false    # 此页面是否出现在文章列表中
+index : false    # 此页面是否出现在侧边栏中
 ---
- 
-# 我是标题
-我是摘要
-<!-- more -->
-我是正文
+## JavaScript 基础
